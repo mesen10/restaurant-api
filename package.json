@@ -1,0 +1,27 @@
+{
+  "name": "restaurantapi",
+  "version": "1.0.0",
+  "description": "Restaurant Application BackEnd",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "./test/test.sh"
+  },
+  "author": "Mert Esen",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "js-sha256": "^0.9.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.10"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1",
+    "nodemon": "^2.0.3",
+    "sinon": "^9.0.2"
+  }
+}

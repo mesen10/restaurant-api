@@ -1,0 +1,13 @@
+version: '2'
+services:
+  mongodb:
+    image: mongo
+    ports:
+      - 27017:27017
+    volumes:
+      - /Users/matt/Projects/workspace-temp/db:/data/db
+    restart: always
+    environment:
+      MONGO_INITDB_DATABASE: restaurantdb1
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: secret
